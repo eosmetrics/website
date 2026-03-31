@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EosMetrics - Professional Testing Services Website
 
 A modern, responsive website for a software testing services company built with HTML, CSS, and JavaScript.
@@ -161,3 +162,6 @@ For questions or support, contact: info@eosmetrics.com
 ---
 
 **Built with ❤️ for quality assurance professionals**
+=======
+# website
+>>>>>>> origin/main
