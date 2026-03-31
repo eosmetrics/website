@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional software testing services - Quality assurance, automation, and performance testing">
+    <title>EosMetrics - Professional Testing Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="logo" aria-label="EosMetrics home">
+                    <!-- <div class="logo-pill"> -->
+                        <img src="img/logo.jpg" alt="EosMetrics Logo" class="logo-img">
+                    <!-- </div> -->
+                </a>
+                <div class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <!-- <a href="#testimonials" class="nav-link">Testimonials</a> -->
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Quality Assurance That
+                    <span class="gradient-text">Drives Excellence</span>
+                </h1>
+                <p class="hero-description">
+                    Comprehensive software testing services to ensure your applications are reliable,
+                    secure, and deliver exceptional user experiences. We combine expert QA with
+                    modern AI techniques to speed up test creation, improve coverage, and surface
+                    hard-to-find issues earlier in your development cycle.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>100+</h3>
+                        <p>Projects Tested</p>
+                    </div>
+                    <div class="stat">
+                        <h3>98%</h3>
+                        <p>Bug Detection Rate</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Testing Services</h2>
+                <p class="section-description">
+                    End-to-end quality assurance solutions tailored to your needs
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>Manual Testing <span class="ai-chip" tabindex="0" data-tooltip="AI-assisted: intelligent test generation, prioritization, visual regression"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M13 2L3 14h7l-1 8L21 10h-7l-1-8z" fill="currentColor"/></svg><span class="sr-only">AI-assisted</span></span></h3>
+                    <p>Comprehensive manual testing to identify usability issues and ensure your application meets user expectations. Supported by AI-assisted test suggestions to speed exploratory sessions.</p>
+                    <ul class="service-features">
+                        <li>Functional Testing</li>
+                        <li>Exploratory Testing</li>
+                        <li>Usability Testing</li>
+                        <li>Regression Testing</li>
+                    </ul>
+                </div>
+                <div class="service-card featured">
+                    <div class="service-badge">Most Popular</div>
+                    <div class="service-icon">🤖</div>
+                    <h3>Test Automation <span class="ai-chip" tabindex="0" data-tooltip="AI-assisted: AI-driven test generation, flaky test detection"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M13 2L3 14h7l-1 8L21 10h-7l-1-8z" fill="currentColor"/></svg><span class="sr-only">AI-assisted</span></span></h3>
+                    <p>Accelerate your testing process with robust automated testing frameworks and continuous integration. Augmented with AI-driven test generation and flaky-test detection to keep suites fast and reliable.</p>
+                    <ul class="service-features">
+                        <li>Selenium & Playwright</li>
+                        <li>API Testing</li>
+                        <li>CI/CD Integration</li>
+                        <li>Custom Test Frameworks</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Performance Testing <span class="ai-chip" tabindex="0" data-tooltip="AI-assisted: ML anomaly detection & prioritization"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M13 2L3 14h7l-1 8L21 10h-7l-1-8z" fill="currentColor"/></svg><span class="sr-only">AI-assisted</span></span></h3>
+                    <p>Ensure your application can handle peak loads and deliver optimal performance under stress. We use ML-based anomaly detection to spot regressions earlier and prioritize performance fixes.</p>
+                    <ul class="service-features">
+                        <li>Load Testing</li>
+                        <li>Stress Testing</li>
+                        <li>Scalability Analysis</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔒</div>
+                    <h3>Security Testing <span class="ai-chip" tabindex="0" data-tooltip="AI-assisted: automated triage & severity ranking"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M13 2L3 14h7l-1 8L21 10h-7l-1-8z" fill="currentColor"/></svg><span class="sr-only">AI-assisted</span></span></h3>
+                    <p>Protect your application from vulnerabilities with comprehensive security assessments and penetration testing. AI-assisted triage helps prioritize high-impact findings so your team can patch what matters first.</p>
+                    <ul class="service-features">
+                        <li>Vulnerability Scanning</li>
+                        <li>Penetration Testing</li>
+                        <li>Security Audits</li>
+                        <li>Compliance Testing</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Mobile Testing <span class="ai-chip" tabindex="0" data-tooltip="AI-assisted: device prioritization & visual regression"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M13 2L3 14h7l-1 8L21 10h-7l-1-8z" fill="currentColor"/></svg><span class="sr-only">AI-assisted</span></span></h3>
+                    <p>Ensure flawless performance across all mobile devices and platforms with specialized mobile testing. AI-powered device prioritization and visual-regression checks speed up release confidence.</p>
+                    <ul class="service-features">
+                        <li>iOS & Android Testing</li>
+                        <li>Cross-Device Testing</li>
+                        <li>Mobile Performance</li>
+                        <li>App Store Validation</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>API Testing <span class="ai-chip" tabindex="0" data-tooltip="AI-assisted: contract inference & smart fuzzing"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M13 2L3 14h7l-1 8L21 10h-7l-1-8z" fill="currentColor"/></svg><span class="sr-only">AI-assisted</span></span></h3>
+                    <p>Validate your APIs for functionality, reliability, performance, and security with comprehensive testing. We use AI-assisted contract inference and smart fuzzing to discover edge-case failures quicker.</p>
+                    <ul class="service-features">
+                        <li>REST & GraphQL</li>
+                        <li>Integration Testing</li>
+                        <li>Contract Testing</li>
+                        <li>API Documentation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Why Choose EosMetrics?</h2>
+                    <p class="lead">
+                        With over a decade of experience in software testing, we've helped hundreds of 
+                        companies deliver high-quality software products that users love.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Expert Team</h4>
+                                <p>Certified QA professionals with extensive industry experience</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Latest Technologies</h4>
+                                <p>We use cutting-edge tools and frameworks for efficient testing — including AI/ML-assisted tooling for smarter test generation, visual regression, and prioritization.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Agile Methodology</h4>
+                                <p>Flexible approach that adapts to your development process</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Detailed Reporting</h4>
+                                <p>Comprehensive test reports with actionable insights</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <span>🎯</span>
+                        <p>Quality First Approach</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+   <!-- <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-description">
+                    Don't just take our word for it - hear from our satisfied clients
+                </p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "EosMetrics transformed our QA process. Their automation framework reduced our 
+                        testing time by 60% while improving bug detection significantly."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div>
+                            <h4>Sarah Mitchell</h4>
+                            <p>CTO, TechFlow Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "Professional, thorough, and always on time. They found critical issues we 
+                        would have missed and helped us deliver a rock-solid product."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JC</div>
+                        <div>
+                            <h4>James Chen</h4>
+                            <p>Product Manager, DataSync</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">
+                        "The best testing partner we've worked with. Their attention to detail and 
+                        comprehensive reporting gave us complete confidence in our releases."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">EP</div>
+                        <div>
+                            <h4>Emily Parker</h4>
+                            <p>CEO, AppVenture</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Ready to ensure your software meets the highest quality standards? Let's discuss your testing needs.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@eosmetrics.com</p>
+                            </div>
+                        </div>
+                        
+                            <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Kusmagiri, Infopark Road, Kochi, Kerala</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- To use Formspree: replace YOUR_FORMSPREE_ID with your ID and uncomment the action attribute -->
+                <form class="contact-form" id="contactForm" method="POST" action="https://formspree.io/f/YOUR_FORMSPREE_ID">
+                    <!-- Honeypot field to catch bots -->
+                    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="manual">Manual Testing</option>
+                            <option value="automation">Test Automation</option>
+                            <option value="performance">Performance Testing</option>
+                            <option value="security">Security Testing</option>
+                            <option value="mobile">Mobile Testing</option>
+                            <option value="api">API Testing</option>
+                            <option value="ai">AI-Powered Testing</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="img/logo.jpg" alt="EosMetrics Logo" class="logo-img-footer">
+                    <p>Professional testing services for modern software development.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Manual Testing</a></li>
+                        <li><a href="#services">Test Automation</a></li>
+                        <li><a href="#services">Performance Testing</a></li>
+                        <li><a href="#services">Security Testing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EosMetrics. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
